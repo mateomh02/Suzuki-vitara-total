@@ -1,0 +1,34 @@
+.navbar {
+    &-expand-lg {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    &-brand {
+        margin: 0;
+        padding: 16px 0 16px 16px;
+
+        img {
+            width: 60px;
+            height: 40px;
+        }
+    }
+
+    &-toggler {
+        border: none;
+        padding: 24px 16px 24px 0;
+
+        &-icon {
+            width: 24px;
+            height: 24px;
+            background-image: url('../img/icon-navbar.png');
+        }
+    }
+
+    &-collapse.show{
+        height: 100vh;
+    }
+
+
+}

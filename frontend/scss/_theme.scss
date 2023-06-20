@@ -1,0 +1,13 @@
+//Variables
+@import "./base/tipography";
+@import "./base/variables";
+
+//Boostrap
+@import "bootstrap";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+//components
+@import "./components/navbar";
+@import "./components/banner";
